@@ -1,4 +1,9 @@
----
+<div class="hero">
+  <img src="/assets/images/deansure-logo.png" alt="Deansure LLC logo" style="max-width: 180px; margin-bottom: 16px;">
+  <h1>Independent Insurance Solutions</h1>
+  <p>Tailored coverage. Trusted guidance. A partner who’s always available.</p>
+  <a class="button" href="/services">Explore Our Services</a>
+</div>---
 layout: default
 title: Home
 ---
