@@ -1,12 +1,29 @@
 ---
-layout: default
 title: Home
 ---
 
-# Welcome to Deansure LLC
-Independent Insurance Agency — Commercial, Home, Auto, Life, Health, and more.  
-Licensed in MO, IL, and TX. NPN: 20645552.
+# Independent insurance solutions for families and businesses
+Tailored coverage. Trusted guidance. A partner who’s always available.
 
-We help businesses and families find the right coverage at the right price — with independent guidance you can trust.
+[Explore our services](#our-services) • [Contact us](contact.md)
 
-[Request a Quote](contact.md)
+## Our services
+We provide independent insurance solutions tailored to your needs:
+
+- **Commercial Insurance:** Protection for your business, employees, and assets — tailored to your industry.
+- **Home Insurance:** Coverage that safeguards your home, belongings, and peace of mind.
+- **Auto Insurance:** Liability and comprehensive options for everyday drivers and fleets.
+- **Life Insurance:** Plans that secure your family’s future when it matters most.
+- **Health Insurance:** Options that fit your needs and budget, with independent guidance.
+- **Specialty:** Boat, motorcycle, and other lifestyle coverage to match how you live.
+
+## Why choose Deansure
+- **Availability & Timeliness:** When you need answers, we’re there — fast, clear, and reliable.
+- **Tailored Coverage & Pricing:** Independent access to 50+ carriers to fit your exact needs and budget.
+- **Consistent Renewal Reviews:** Annual policy checkups to keep protection in step with life and industry changes.
+- **Experience & Licensing:** Licensed in MO, IL, and TX. 3 years of industry experience with State Farm.
+
+## Our story
+Deansure was founded as a calling — a commitment to help families and businesses find peace of mind in uncertain times. We bring integrity, expertise, and family values to every policy. Insurance isn’t one-size-fits-all, and neither is your life. That’s why we combine independent carrier access with a personal, timely approach, reviewing policies consistently so your protection grows with your future.
+
+[Request a quote](contact.md)
