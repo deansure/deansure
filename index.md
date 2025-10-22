@@ -11,6 +11,7 @@
   <!-- Header / Navigation -->
   <header>
     <div class="logo">
+      <!-- Your logo -->
       <img src="/assets/images/deansure-logo.png" alt="Deansure LLC logo">
     </div>
     <nav>
@@ -22,7 +23,7 @@
     </nav>
   </header>
 
-  <!-- Hero Section -->
+  <!-- Hero Section (your existing setup, merged in) -->
   <section class="hero">
     <h1>Insurance with Integrity. Protection for What Matters Most.</h1>
     <p>Independent, family‑first insurance guidance you can trust.</p>
