@@ -69,7 +69,7 @@
   <!-- About Section -->
   <section id="about" class="about">
     <h2>About Deansure</h2>
-    <img src="/assets/images/caleb.jpg" alt="Caleb Dean">
+    <img src="/assets/images/caleb.jpeg" alt="Caleb Dean">
     <p>
       I founded Deansure LLC to provide insurance with integrity, rooted in family values.
       My mission is to help Missouri families and businesses find coverage they can trust.
