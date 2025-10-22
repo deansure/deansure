@@ -1,38 +1,110 @@
----
-layout: default
-title: Home
----
-<div class="hero">
-  <img src="/assets/images/deansure-logo.PNG" alt="Deansure LLC logo" style="max-width: 180px; margin-bottom: 16px;">
-  <h1>Independent Insurance Solutions</h1>
-  <p>Tailored coverage. Trusted guidance. A partner who’s always available.</p>
-  <a class="button" href="/services">Explore Our Services</a>
-</div>---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deansure LLC</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
 
----
+  <!-- Header / Navigation -->
+  <header>
+    <div class="logo">
+      <img src="/assets/images/deansure-logo.png" alt="Deansure LLC logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-# Independent insurance solutions for families and businesses
-Tailored coverage. Trusted guidance. A partner who’s always available.
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Insurance with Integrity. Protection for What Matters Most.</h1>
+    <p>Independent, family‑first insurance guidance you can trust.</p>
+    <a href="#contact" class="cta-button">Request a Quote</a>
+  </section>
 
-[Explore our services](#our-services) • [Contact us](contact.md)
+  <!-- Trust Section -->
+  <section class="trust">
+    <h2>Why Clients Trust Deansure</h2>
+    <ul>
+      <li>Independent Broker</li>
+      <li>Licensed in Missouri</li>
+      <li>Family‑Owned</li>
+    </ul>
+    <blockquote>
+      “Caleb made the process simple and stress‑free. I know my family is protected.”
+    </blockquote>
+  </section>
 
-## Our services
-We provide independent insurance solutions tailored to your needs:
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <h3>Auto Insurance</h3>
+        <p>Protect your vehicle and your peace of mind.</p>
+      </div>
+      <div class="service-card">
+        <h3>Home Insurance</h3>
+        <p>Coverage for your home, inside and out.</p>
+      </div>
+      <div class="service-card">
+        <h3>Life Insurance</h3>
+        <p>Security for your loved ones’ future.</p>
+      </div>
+      <div class="service-card">
+        <h3>Business Insurance</h3>
+        <p>Safeguarding your livelihood.</p>
+      </div>
+    </div>
+  </section>
 
-- **Commercial Insurance:** Protection for your business, employees, and assets — tailored to your industry.
-- **Home Insurance:** Coverage that safeguards your home, belongings, and peace of mind.
-- **Auto Insurance:** Liability and comprehensive options for everyday drivers and fleets.
-- **Life Insurance:** Plans that secure your family’s future when it matters most.
-- **Health Insurance:** Options that fit your needs and budget, with independent guidance.
-- **Specialty:** Boat, motorcycle, and other lifestyle coverage to match how you live.
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Deansure</h2>
+    <img src="/assets/images/caleb.jpg" alt="Caleb Dean">
+    <p>
+      I founded Deansure LLC to provide insurance with integrity, rooted in family values.
+      My mission is to help Missouri families and businesses find coverage they can trust.
+    </p>
+  </section>
 
-## Why choose Deansure
-- **Availability & Timeliness:** When you need answers, we’re there — fast, clear, and reliable.
-- **Tailored Coverage & Pricing:** Independent access to 50+ carriers to fit your exact needs and budget.
-- **Consistent Renewal Reviews:** Annual policy checkups to keep protection in step with life and industry changes.
-- **Experience & Licensing:** Licensed in MO, IL, and TX. 3 years of industry experience.
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Get in Touch</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name">
 
-## Our story
-Deansure was founded as a calling — a commitment to help families and businesses find peace of mind in uncertain times. We bring integrity, expertise, and family values to every policy. Insurance isn’t one-size-fits-all, and neither is your life. That’s why we combine independent carrier access with a personal, timely approach, reviewing policies consistently so your protection grows with your future.
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email">
 
-[Request a quote](contact.md)
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone">
+
+      <label for="insurance">Insurance Type</label>
+      <select id="insurance" name="insurance">
+        <option>Auto</option>
+        <option>Home</option>
+        <option>Life</option>
+        <option>Business</option>
+      </select>
+
+      <button type="submit">Request a Quote</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© Deansure LLC. All Rights Reserved.</p>
+    <p><a href="mailto:info@deansure.com">info@deansure.com</a> | (555) 555‑5555</p>
+  </footer>
+
+</body>
+</html>
