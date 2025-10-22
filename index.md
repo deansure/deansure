@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 <div class="hero">
-  <img src="/assets/images/deansure-logo.png" alt="Deansure LLC logo" style="max-width: 180px; margin-bottom: 16px;">
+  <img src="/assets/images/deansure-logo.PNG" alt="Deansure LLC logo" style="max-width: 180px; margin-bottom: 16px;">
   <h1>Independent Insurance Solutions</h1>
   <p>Tailored coverage. Trusted guidance. A partner who’s always available.</p>
   <a class="button" href="/services">Explore Our Services</a>
@@ -30,7 +30,7 @@ We provide independent insurance solutions tailored to your needs:
 - **Availability & Timeliness:** When you need answers, we’re there — fast, clear, and reliable.
 - **Tailored Coverage & Pricing:** Independent access to 50+ carriers to fit your exact needs and budget.
 - **Consistent Renewal Reviews:** Annual policy checkups to keep protection in step with life and industry changes.
-- **Experience & Licensing:** Licensed in MO, IL, and TX. 3 years of industry experience with State Farm.
+- **Experience & Licensing:** Licensed in MO, IL, and TX. 3 years of industry experience.
 
 ## Our story
 Deansure was founded as a calling — a commitment to help families and businesses find peace of mind in uncertain times. We bring integrity, expertise, and family values to every policy. Insurance isn’t one-size-fits-all, and neither is your life. That’s why we combine independent carrier access with a personal, timely approach, reviewing policies consistently so your protection grows with your future.
