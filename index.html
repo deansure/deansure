@@ -90,29 +90,44 @@
 <!-- Contact Section -->
 <section id="contact" class="contact">
   <h2>Get in Touch</h2>
-  <form action="https://formspree.io/f/xpwyvzwg" method="POST">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" required>
+<form action="https://formspree.io/f/xpwyvzwg" method="POST">
+  <label for="name">Full Name</label>
+  <input type="text" id="name" name="name" required>
 
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" required>
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" required>
 
-    <label for="phone">Phone</label>
-    <input type="tel" id="phone" name="phone">
+  <label for="phone">Phone</label>
+  <input type="tel" id="phone" name="phone">
 
-    <label for="insurance">Insurance Type</label>
-    <select id="insurance" name="insurance">
-      <option>Auto</option>
-      <option>Home</option>
-      <option>Life</option>
-      <option>Business</option>
-    </select>
+  <label for="dob">Date of Birth</label>
+  <input type="date" id="dob" name="dob" required>
 
-    <!-- Redirect to thank-you page after submission -->
-    <input type="hidden" name="_redirect" value="https://deansure.com/thank-you.html">
+  <label for="address">Street Address</label>
+  <input type="text" id="address" name="address" required>
 
-    <button type="submit">Request a Quote</button>
-  </form>
+  <label for="city">City</label>
+  <input type="text" id="city" name="city" required>
+
+  <label for="state">State</label>
+  <input type="text" id="state" name="state" maxlength="2" placeholder="MO" required>
+
+  <label for="zip">ZIP Code</label>
+  <input type="text" id="zip" name="zip" pattern="[0-9]{5}" placeholder="12345" required>
+
+  <label for="insurance">Insurance Type</label>
+  <select id="insurance" name="insurance">
+    <option>Auto</option>
+    <option>Home</option>
+    <option>Life</option>
+    <option>Business</option>
+  </select>
+
+  <!-- Redirect to thank-you page after submission -->
+  <input type="hidden" name="_redirect" value="https://deansure.com/thank-you.html">
+
+  <button type="submit">Request a Quote</button>
+</form>
 </section>
 
   <!-- Footer -->
