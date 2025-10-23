@@ -87,50 +87,33 @@
     </p>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact">
-    <h2>Get in Touch</h2>
-    <form>
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name">
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <h2>Get in Touch</h2>
+  <form action="https://formspree.io/f/xpwyvzwg" method="POST">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
 
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
 
-      <label for="phone">Phone</label>
-      <input type="tel" id="phone" name="phone">
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" name="phone">
 
-      <label for="insurance">Insurance Type</label>
-      <select id="insurance" name="insurance">
-        <option>Auto</option>
-        <option>Home</option>
-        <option>Life</option>
-        <option>Business</option>
-      </select>
+    <label for="insurance">Insurance Type</label>
+    <select id="insurance" name="insurance">
+      <option>Auto</option>
+      <option>Home</option>
+      <option>Life</option>
+      <option>Business</option>
+    </select>
 
-      <button type="submit">Request a Quote</button>
-    <form action="https://formspree.io/f/xpwyvzwg" method="POST">
-  <label for="name">Name</label>
-  <input type="text" id="name" name="name" required>
+    <!-- Redirect to thank-you page after submission -->
+    <input type="hidden" name="_redirect" value="https://deansure.com/thank-you.html">
 
-  <label for="email">Email</label>
-  <input type="email" id="email" name="email" required>
-
-  <label for="phone">Phone</label>
-  <input type="tel" id="phone" name="phone">
-
-  <label for="insurance">Insurance Type</label>
-  <select id="insurance" name="insurance">
-    <option>Auto</option>
-    <option>Home</option>
-    <option>Life</option>
-    <option>Business</option>
-  </select>
-
-  <button type="submit">Request a Quote</button>
-<input type="hidden" name="_redirect" value="https://deansure.com/thank-you.html">
-</form>
-  </section>
+    <button type="submit">Request a Quote</button>
+  </form>
+</section>
 
   <!-- Footer -->
   <footer>
