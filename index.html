@@ -109,7 +109,26 @@
       </select>
 
       <button type="submit">Request a Quote</button>
-    </form>
+    <form action="https://formspree.io/f/xpwyvzwg" method="POST">
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="phone">Phone</label>
+  <input type="tel" id="phone" name="phone">
+
+  <label for="insurance">Insurance Type</label>
+  <select id="insurance" name="insurance">
+    <option>Auto</option>
+    <option>Home</option>
+    <option>Life</option>
+    <option>Business</option>
+  </select>
+
+  <button type="submit">Request a Quote</button>
+</form>
   </section>
 
   <!-- Footer -->
