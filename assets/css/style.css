@@ -196,3 +196,46 @@ footer {
   color: #fff;
   font-size: 0.9rem;
 }
+/* Base nav styles */
+.nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* Hide toggle button on desktop */
+.nav-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .nav {
+    display: none; /* hide menu by default */
+    flex-direction: column;
+    background: #002244;
+    position: absolute;
+    top: 70px; /* below header */
+    right: 0;
+    width: 200px;
+    padding: 1rem;
+  }
+
+  .nav.active {
+    display: flex; /* show when toggled */
+  }
+
+  .nav-toggle {
+    display: block; /* show hamburger on mobile */
+  }
+
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
