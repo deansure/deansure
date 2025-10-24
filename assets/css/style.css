@@ -279,3 +279,38 @@ footer {
   color: #0066cc; /* branded blue for emphasis */
   font-size: 0.95rem;
 }
+.carriers {
+  background: #fff;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.carriers h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #002244;
+}
+
+.carriers p {
+  margin-bottom: 2rem;
+  color: #444;
+}
+
+.carrier-logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.carrier-logos img {
+  max-width: 120px;
+  max-height: 60px;
+  margin: 0 auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.carrier-logos img:hover {
+  filter: grayscale(0%);
+}
