@@ -276,5 +276,6 @@ footer {
 
 .review-grid blockquote footer {
   font-weight: bold;
-  color: #444;
+  color: #0066cc; /* branded blue for emphasis */
+  font-size: 0.95rem;
 }
