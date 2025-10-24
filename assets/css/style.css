@@ -314,3 +314,6 @@ footer {
 .carrier-logos img:hover {
   filter: grayscale(0%);
 }
+section:nth-of-type(even) {
+  background: #f9f9f9;
+}
