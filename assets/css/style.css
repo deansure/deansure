@@ -365,3 +365,67 @@ section:nth-of-type(even) {
   background-color: #f5f9ff; /* subtle light blue highlight */
 }
 
+/* Carrier Logos Section */
+.carriers {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.carriers h2 {
+  color: #002244;
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+.carrier-note {
+  font-size: 0.95rem;
+  color: #666;
+  margin-top: 1rem;
+}
+
+/* Grid */
+.carrier-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 per row on desktop for balance */
+  gap: 1.5rem 2rem;
+  align-items: center;
+  justify-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+@media (max-width: 992px) {
+  .carrier-grid {
+    grid-template-columns: repeat(2, 1fr); /* tablet */
+  }
+}
+@media (max-width: 600px) {
+  .carrier-grid {
+    grid-template-columns: 1fr; /* mobile */
+  }
+}
+
+/* Logo styling */
+.carrier img {
+  max-width: 160px;
+  height: auto;
+  display: block;
+  filter: grayscale(100%) contrast(105%);
+  opacity: 0.9;
+  transition: filter 0.25s ease, opacity 0.25s ease, transform 0.25s ease;
+}
+
+/* Hover: subtle reveal to color and micro-lift */
+.carrier img:hover {
+  filter: grayscale(0%) contrast(105%);
+  opacity: 1;
+  transform: translateY(-3px);
+}
+
+/* Optional: card frame for extra polish */
+.carrier {
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+}
+
+/* If a logo is very wide/tall, allow per-item tuning
+.carrier--wide img { max-width: 180px; }
+.carrier--tall img { max-height: 48px; }
+*/
