@@ -365,7 +365,3 @@ section:nth-of-type(even) {
   background-color: #f5f9ff; /* subtle light blue highlight */
 }
 
-/* Alternating background colors for better readability */
-.review-grid blockquote:nth-child(even) {
-  background-color: #f9f9f9;
-}
