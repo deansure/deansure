@@ -334,3 +334,38 @@ section:nth-of-type(even) {
   color: #0066cc;
   margin-bottom: 1rem;
 }
+/* Reviews Grid - Symmetrical 2-column layout */
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* always 2 per row on desktop */
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .review-grid {
+    grid-template-columns: 1fr; /* stack on smaller screens */
+  }
+}
+
+.review-grid blockquote {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  font-style: italic;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect */
+.review-grid blockquote:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  background-color: #f5f9ff; /* subtle light blue highlight */
+}
+
+/* Alternating background colors for better readability */
+.review-grid blockquote:nth-child(even) {
+  background-color: #f9f9f9;
+}
