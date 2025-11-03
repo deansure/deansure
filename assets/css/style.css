@@ -494,3 +494,162 @@ section:nth-of-type(even) {
 .read-more:hover {
   text-decoration: underline;
 }
+/* Utilities */
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* Blog article */
+.blog-article {
+  padding: 3rem 0;
+}
+
+.post-header h1 {
+  font-size: 2.25rem;
+  line-height: 1.25;
+  color: #002244;
+  margin-bottom: 0.75rem;
+}
+
+.post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 1.25rem;
+}
+
+.post-meta .meta-item i {
+  color: #0066cc;
+  margin-right: 0.4rem;
+}
+
+.post-meta .meta-sep {
+  color: #aaa;
+}
+
+/* Hero figure */
+.post-hero {
+  margin: 1rem 0 2rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 26px rgba(0,0,0,0.08);
+  background: #fff;
+}
+
+.post-hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.post-hero figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  padding: 0.75rem 1rem;
+  background: #f8fafc;
+  border-top: 1px solid #eee;
+}
+
+/* Content typography */
+.post-content {
+  font-size: 1.05rem;
+  color: #333;
+}
+
+.post-content .lead {
+  font-size: 1.15rem;
+  line-height: 1.75;
+  color: #333;
+  background: #f5f9ff;
+  border-left: 4px solid #0066cc;
+  padding: 0.9rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.post-content h2 {
+  font-size: 1.5rem;
+  color: #002244;
+  margin: 2rem 0 0.75rem;
+  position: relative;
+}
+
+.post-content h2::after {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 3px;
+  background: #0066cc;
+  margin-top: 0.4rem;
+  border-radius: 2px;
+}
+
+/* Pull quote */
+.pull-quote {
+  margin: 1.5rem 0;
+  padding: 1rem 1.2rem;
+  background: #fff;
+  border: 1px solid #e6eef7;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  font-style: italic;
+  color: #0a2d44;
+}
+
+/* Checklist list */
+.checklist {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0 1.5rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.checklist li {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 1rem;
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid #eee;
+  align-items: center;
+}
+
+.checklist li:last-child {
+  border-bottom: none;
+}
+
+.checklist .label {
+  font-weight: 600;
+  color: #002244;
+}
+
+.checklist .detail {
+  color: #555;
+}
+
+/* Soft CTA */
+.cta-soft {
+  margin: 2rem 0 0;
+  padding: 1rem 1.2rem;
+  background: #f5f9ff;
+  border: 1px solid #e6eef7;
+  border-radius: 8px;
+  color: #0a2d44;
+  font-weight: 600;
+}
+
+/* Responsive tweaks */
+@media (max-width: 640px) {
+  .post-header h1 {
+    font-size: 1.85rem;
+  }
+  .checklist li {
+    grid-template-columns: 1fr;
+  }
+}
