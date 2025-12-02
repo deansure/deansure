@@ -14,6 +14,12 @@
 <meta property="og:image" content="/assets/images/deansure-logo.png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+  <!-- Sticky floating CTA -->
+<div id="sticky-cta" class="sticky-cta" aria-label="Get a quote">
+  <a href="#hero-quote" class="sticky-cta-btn">
+    <i class="fas fa-file-signature" aria-hidden="true"></i> Get My Quote
+  </a>
+</div>
 <body>
 
   <!-- Header / Navigation -->
@@ -36,12 +42,47 @@
   </nav>
 </header>
 
-  <!-- Hero Section (your existing setup, merged in) -->
-  <section class="hero">
-    <h1>Insurance with Integrity. Protection for What Matters Most.</h1>
-    <p>Independent, family‑first insurance guidance you can trust.</p>
-    <a href="#contact" class="cta-button">Request a Quote</a>
-  </section>
+<!-- Hero Section (short form above the fold) -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-copy">
+      <h1>Insurance with Integrity. Protection for What Matters Most.</h1>
+      <p>Independent, family‑first insurance guidance you can trust.</p>
+
+      <!-- Optional secondary CTA if you prefer a call instead of form -->
+      <div class="hero-quick-cta">
+        <a href="tel:+12542905017" class="cta-link">Call now: (254) 290‑5017</a>
+      </div>
+    </div>
+
+    <!-- Short quote form (fast lead capture) -->
+    <form id="hero-quote" class="hero-form" action="https://formspree.io/f/xpwyvzwg" method="POST">
+      <h2 class="form-title">Get a quick quote</h2>
+
+      <input type="text" name="name" placeholder="Full name" aria-label="Full name" required>
+      <input type="email" name="email" placeholder="Email" aria-label="Email" required>
+      <input type="tel" name="phone" placeholder="Phone" aria-label="Phone" required>
+      <input type="text" name="zip" placeholder="ZIP code" aria-label="ZIP code" pattern="[0-9]{5}" required>
+
+      <select name="insurance" aria-label="Insurance type">
+        <option value="Auto">Auto</option>
+        <option value="Home">Home</option>
+        <option value="Life">Life</option>
+        <option value="Business">Business</option>
+      </select>
+
+      <!-- Redirect to thank-you page after submission -->
+      <input type="hidden" name="_redirect" value="https://deansure.com/thank-you.html">
+
+      <button type="submit" class="primary-btn">Get My Quote</button>
+
+      <!-- Micro‑reassurance -->
+      <p class="micro-proof">
+        Trusted by families and businesses in IL, MO, and TX. No hard selling, ever.
+      </p>
+    </form>
+  </div>
+</section>
 
   <!-- Trust Section -->
   <section class="trust">
