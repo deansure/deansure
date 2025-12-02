@@ -4,171 +4,125 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Deansure LLC</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta name="description" content="Independent insurance guidance in Missouri. Deansure LLC offers auto, home, life, and business coverage with integrity and family-first values.">
+  <meta name="keywords" content="Missouri insurance, independent broker, auto insurance, home insurance, Deansure LLC">
+  <meta property="og:title" content="Deansure LLC">
+  <meta property="og:description" content="Insurance with Integrity. Protection for What Matters Most.">
+  <meta property="og:image" content="/assets/images/deansure-logo.png">
   <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<meta name="description" content="Independent insurance guidance in Missouri. Deansure LLC offers auto, home, life, and business coverage with integrity and family-first values.">
-<meta name="keywords" content="Missouri insurance, independent broker, auto insurance, home insurance, Deansure LLC">
-<meta property="og:title" content="Deansure LLC">
-<meta property="og:description" content="Insurance with Integrity. Protection for What Matters Most.">
-<meta property="og:image" content="/assets/images/deansure-logo.png">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-  <!-- Sticky floating CTA -->
-<div id="sticky-cta" class="sticky-cta" aria-label="Get a quote">
-  <a href="#hero-quote" class="sticky-cta-btn">
-    <i class="fas fa-file-signature" aria-hidden="true"></i> Get My Quote
-  </a>
-</div>
 <body>
 
   <!-- Header / Navigation -->
- <header>
-  <div class="logo">
-    <img src="assets/images/deansure-logo.png" alt="Deansure LLC logo">
-  </div>
-
-  <!-- Hamburger button -->
-  <button class="nav-toggle" aria-label="toggle navigation">
-    ☰
-  </button>
-
-  <nav class="nav">
-    <ul>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-
-<!-- Hero Section (short form above the fold) -->
-<section class="hero">
-  <div class="hero-content">
-    <div class="hero-copy">
-      <h1>Insurance with Integrity. Protection for What Matters Most.</h1>
-      <p>Independent, family‑first insurance guidance you can trust.</p>
-
-      <!-- Optional secondary CTA if you prefer a call instead of form -->
-      <div class="hero-quick-cta">
-        <a href="tel:+12542905017" class="cta-link">Call now: (254) 290‑5017</a>
-      </div>
+  <header>
+    <div class="logo">
+      <img src="assets/images/deansure-logo.png" alt="Deansure LLC logo">
     </div>
+    <button class="nav-toggle" aria-label="toggle navigation">☰</button>
+    <nav class="nav">
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Short quote form (fast lead capture) -->
-    <form id="hero-quote" class="hero-form" action="https://formspree.io/f/xpwyvzwg" method="POST">
-      <h2 class="form-title">Get a quick quote</h2>
+  <!-- Hero Section (short form above the fold) -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-copy">
+        <h1>Insurance with Integrity. Protection for What Matters Most.</h1>
+        <p>Independent, family‑first insurance guidance you can trust.</p>
+        <div class="hero-quick-cta">
+          <a href="tel:+12542905017" class="cta-link">Call now: (254) 290‑5017</a>
+        </div>
+      </div>
 
-      <input type="text" name="name" placeholder="Full name" aria-label="Full name" required>
-      <input type="email" name="email" placeholder="Email" aria-label="Email" required>
-      <input type="tel" name="phone" placeholder="Phone" aria-label="Phone" required>
-      <input type="text" name="zip" placeholder="ZIP code" aria-label="ZIP code" pattern="[0-9]{5}" required>
+      <!-- Short quote form -->
+      <form id="hero-quote" class="hero-form" action="https://formspree.io/f/xpwyvzwg" method="POST">
+        <h2 class="form-title">Get a quick quote</h2>
 
-      <select name="insurance" aria-label="Insurance type">
-        <option value="Auto">Auto</option>
-        <option value="Home">Home</option>
-        <option value="Life">Life</option>
-        <option value="Business">Business</option>
-      </select>
+        <input type="text" name="name" placeholder="Full name" aria-label="Full name" required>
+        <input type="email" name="email" placeholder="Email" aria-label="Email" required>
+        <input type="tel" name="phone" placeholder="Phone" aria-label="Phone" required>
+        <input type="text" name="zip" placeholder="ZIP code" aria-label="ZIP code" pattern="[0-9]{5}" required>
 
-      <!-- Redirect to thank-you page after submission -->
-      <input type="hidden" name="_redirect" value="https://deansure.com/thank-you.html">
+        <select name="insurance" aria-label="Insurance type">
+          <option value="Auto">Auto</option>
+          <option value="Home">Home</option>
+          <option value="Life">Life</option>
+          <option value="Business">Business</option>
+        </select>
 
-      <button type="submit" class="primary-btn">Get My Quote</button>
+        <!-- Redirect to thank-you page after submission -->
+        <input type="hidden" name="_redirect" value="https://deansure.com/thank-you.html">
 
-      <!-- Micro‑reassurance -->
-      <p class="micro-proof">
-        Trusted by families and businesses in IL, MO, and TX. No hard selling, ever.
-      </p>
-    </form>
-  </div>
-</section>
+        <button type="submit" class="primary-btn">Get My Quote</button>
+        <p class="micro-proof">Trusted by families and businesses in IL, MO, and TX. No hard selling, ever.</p>
+      </form>
+    </div>
+  </section>
 
   <!-- Trust Section -->
   <section class="trust">
     <h2>Why Clients Trust Deansure</h2>
     <p>
-      At Deansure, we serve as trusted advisors—not salespeople. Our clients know that  we always recommend coverage that truly fits their needs. As an independent, family‑owned agency licensed in Illinois, Missouri, and Texas, we provide clear guidance, personal accessibility, and unwavering integrity.
+      At Deansure, we serve as trusted advisors—not salespeople. Our clients know that we always recommend coverage that truly fits their needs. As an independent, family‑owned agency licensed in Illinois, Missouri, and Texas, we provide clear guidance, personal accessibility, and unwavering integrity.
     </p>
     <blockquote>
       “Caleb made the process simple and stress‑free. I know my family is protected.”
     </blockquote>
   </section>
-<!-- Carrier Logos Section -->
-<section class="carriers" aria-label="Insurance carriers we work with">
-  <h2>Trusted carriers we work with</h2>
-  <div class="carrier-grid">
-    <figure class="carrier">
-      <img src="assets/images/carriers/progressive-logo.png" alt="Progressive" loading="lazy">
-    </figure>
-    <figure class="carrier">
-      <img src="assets/images/carriers/Travelers-logo.png" alt="Travelers" loading="lazy">
-    </figure>
-    <figure class="carrier">
-      <img src="assets/images/carriers/Nationwide-logo.png" alt="Nationwide" loading="lazy">
-    </figure>
-    <figure class="carrier">
-      <img src="assets/images/carriers/safeco-logo.png" alt="Safeco" loading="lazy">
-    </figure>
-    <figure class="carrier">
-      <img src="assets/images/carriers/lm-logo.png" alt="Liberty Mutual" loading="lazy">
-    </figure>
-    <figure class="carrier">
-      <img src="assets/images/carriers/hartford-logo.png" alt="The Hartford" loading="lazy">
-    </figure>
-    <figure class="carrier">
-      <img src="assets/images/carriers/bhg-logo.png" alt="Safeco" loading="lazy">
-    </figure>
-    <figure class="carrier">
-      <img src="assets/images/carriers/branch-logo.png" alt="Safeco" loading="lazy">
-    </figure>
-    <figure class="carrier">
-      <img src="assets/images/carriers/bristolwest-logo.png" alt="Safeco" loading="lazy">
-    </figure>
-    <figure class="carrier">
-      <img src="assets/images/carriers/foremost-logo.png" alt="Safeco" loading="lazy">
-    </figure>
-    <figure class="carrier">
-      <img src="assets/images/carriers/hoa-logo.png" alt="Safeco" loading="lazy">
-    </figure>
-    <figure class="carrier">
-      <img src="assets/images/carriers/lemonade-logo.png" alt="Safeco" loading="lazy">
-    </figure>
-    <!-- Add or remove logos as needed -->
-  </div>
-  <p class="carrier-note">Carrier availability may vary by state and product.</p>
-</section>
-<!-- Services Section -->
-<section id="services" class="services">
-  <h2>Our Services</h2>
-  <div class="service-grid">
 
-    <div class="service-card">
-      <i class="fas fa-briefcase"></i>
-      <h3>Commercial Insurance</h3>
-      <p>Protect your business, employees, and future with comprehensive commercial coverage.</p>
+  <!-- Carrier Logos Section -->
+  <section class="carriers" aria-label="Insurance carriers we work with">
+    <h2>Trusted carriers we work with</h2>
+    <div class="carrier-grid">
+      <figure class="carrier"><img src="assets/images/carriers/progressive-logo.png" alt="Progressive" loading="lazy"></figure>
+      <figure class="carrier"><img src="assets/images/carriers/Travelers-logo.png" alt="Travelers" loading="lazy"></figure>
+      <figure class="carrier"><img src="assets/images/carriers/Nationwide-logo.png" alt="Nationwide" loading="lazy"></figure>
+      <figure class="carrier"><img src="assets/images/carriers/safeco-logo.png" alt="Safeco" loading="lazy"></figure>
+      <figure class="carrier"><img src="assets/images/carriers/lm-logo.png" alt="Liberty Mutual" loading="lazy"></figure>
+      <figure class="carrier"><img src="assets/images/carriers/hartford-logo.png" alt="The Hartford" loading="lazy"></figure>
+      <figure class="carrier"><img src="assets/images/carriers/bhg-logo.png" alt="BHG" loading="lazy"></figure>
+      <figure class="carrier"><img src="assets/images/carriers/branch-logo.png" alt="Branch" loading="lazy"></figure>
+      <figure class="carrier"><img src="assets/images/carriers/bristolwest-logo.png" alt="Bristol West" loading="lazy"></figure>
+      <figure class="carrier"><img src="assets/images/carriers/foremost-logo.png" alt="Foremost" loading="lazy"></figure>
+      <figure class="carrier"><img src="assets/images/carriers/hoa-logo.png" alt="HOA" loading="lazy"></figure>
+      <figure class="carrier"><img src="assets/images/carriers/lemonade-logo.png" alt="Lemonade" loading="lazy"></figure>
     </div>
+    <p class="carrier-note">Carrier availability may vary by state and product.</p>
+  </section>
 
-    <div class="service-card">
-      <i class="fas fa-car"></i>
-      <h3>Auto Insurance</h3>
-      <p>Protect your vehicle and your peace of mind with coverage tailored to you.</p>
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <i class="fas fa-briefcase" aria-hidden="true"></i>
+        <h3>Commercial Insurance</h3>
+        <p>Protect your business, employees, and future with comprehensive commercial coverage.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-car" aria-hidden="true"></i>
+        <h3>Auto Insurance</h3>
+        <p>Protect your vehicle and your peace of mind with coverage tailored to you.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-house" aria-hidden="true"></i>
+        <h3>Home Insurance</h3>
+        <p>Safeguard your home and belongings with reliable protection you can trust.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-heart" aria-hidden="true"></i>
+        <h3>Life Insurance</h3>
+        <p>Provide financial security for your loved ones with flexible life insurance options.</p>
+      </div>
     </div>
-
-    <div class="service-card">
-      <i class="fas fa-house"></i>
-      <h3>Home Insurance</h3>
-      <p>Safeguard your home and belongings with reliable protection you can trust.</p>
-    </div>
-
-    <div class="service-card">
-      <i class="fas fa-heart"></i>
-      <h3>Life Insurance</h3>
-      <p>Provide financial security for your loved ones with flexible life insurance options.</p>
-    </div>
-
-  </div>
-</section>
+  </section>
 
   <!-- About Section -->
   <section id="about" class="about">
@@ -180,119 +134,96 @@
     </p>
   </section>
 
-<!-- Reviews Section -->
-<section id="reviews" class="reviews">
-  <h2>What Our Clients Say</h2>
-  <div class="review-grid">
+  <!-- Reviews Section -->
+  <section id="reviews" class="reviews">
+    <h2>What Our Clients Say</h2>
+    <div class="review-grid">
+      <blockquote><p>"Caleb was great. Saved us lots of money!!!!"</p><footer>- Debbie S.</footer></blockquote>
+      <blockquote><p>"Today, I met with Caleb about a new addition to my policy and he was great. No hard selling."</p><footer>- Ben N.</footer></blockquote>
+      <blockquote><p>"Caleb Dean was great to work with. Everything was smooth and easy."</p><footer>- Shanda J.</footer></blockquote>
+      <blockquote><p>"I am so lucky to have found him. I feel he has my back."</p><footer>- Teresa L.</footer></blockquote>
+      <blockquote><p>"Caleb Dean was very friendly and knowledgeable, it was a great experience."</p><footer>- Jacquelyn P.</footer></blockquote>
+      <blockquote><p>"He was kind, respectful, helpful, and knowledgeable in helping me get my auto insurance coverage set up. Ask for Caleb!"</p><footer>- Stephen D.</footer></blockquote>
+      <blockquote><p>"Caleb was very informative and explained the details and options available for both home and auto coverage. I appreciate the option to speak face to face and get some information about him and his family."</p><footer>- Betty H.</footer></blockquote>
+      <blockquote><p>"Caleb reached out like I asked with cost updates every few months. He was great to work with."</p><footer>- Amanda C.</footer></blockquote>
+    </div>
+  </section>
 
-    <blockquote>
-      <p>"Caleb was great. Saved us lots of money!!!!"</p>
-      <footer>- Debbie S.</footer>
-    </blockquote>
-
-    <blockquote>
-      <p>"Today, I met with Caleb about a new addition to my policy and he was great. No hard selling."</p>
-      <footer>- Ben N.</footer>
-    </blockquote>
-
-    <blockquote>
-      <p>"Caleb Dean was great to work with. Everything was smooth and easy."</p>
-      <footer>- Shanda J.</footer>
-    </blockquote>
-
-    <blockquote>
-      <p>"I am so lucky to have found him. I feel he has my back."</p>
-      <footer>- Teresa L.</footer>
-    </blockquote>
-
-    <blockquote>
-      <p>"Caleb Dean was very friendly and knowledgeable, it was a great experience."</p>
-      <footer>- Jacquelyn P.</footer>
-    </blockquote>
-
-    <blockquote>
-      <p>"He was kind, respectful, helpful, and knowledgeable in helping me get my auto insurance coverage set up. Ask for Caleb!"</p>
-      <footer>- Stephen D.</footer>
-    </blockquote>
-
-    <blockquote>
-      <p>"Caleb was very informative and explained the details and options available for both home and auto coverage. I appreciate the option to speak face to face and get some information about him and his family. That means a great deal to me to get to know who I'm doing business with."</p>
-      <footer>- Betty H.</footer>
-    </blockquote>
-
-    <blockquote>
-      <p>"Caleb reached out like I asked with cost updates every few months. He was great to work with."</p>
-      <footer>- Amanda C.</footer>
-    </blockquote>
-
-  </div>
-</section>
   <!-- Blog Section -->
-<section id="blog" class="blog">
-  <h2>Latest Insights</h2>
-  <div class="blog-grid">
-    <article class="blog-post">
-      <img src="assets/images/blog/missouri-losses.png" alt="Storm damage in Missouri">
-      <h3>Home Insurance in Pacific, MO: What Actually Impacts Your Premium</h3>
-      <p>In 2025, Missouri insurers absorbed nearly $1.8 billion in storm-related losses. Here’s why that matters for your premium—and why shopping carriers could save you money.</p>
-      <a href="blog.html" class="read-more">Read More</a>
-    </article>
-  </div>
-</section>
-<!-- Contact Section -->
-<section id="contact" class="contact">
-  <h2>Get in Touch</h2>
-<form action="https://formspree.io/f/xpwyvzwg" method="POST">
-  <label for="name">Full Name</label>
-  <input type="text" id="name" name="name" required>
+  <section id="blog" class="blog">
+    <h2>Latest Insights</h2>
+    <div class="blog-grid">
+      <article class="blog-post">
+        <img src="assets/images/blog/missouri-losses.png" alt="Storm damage in Missouri">
+        <h3>Home Insurance in Pacific, MO: What Actually Impacts Your Premium</h3>
+        <p>In 2025, Missouri insurers absorbed nearly $1.8 billion in storm-related losses. Here’s why that matters for your premium—and why shopping carriers could save you money.</p>
+        <a href="blog.html" class="read-more">Read More</a>
+      </article>
+    </div>
+  </section>
 
-  <label for="email">Email</label>
-  <input type="email" id="email" name="email" required>
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Get in Touch</h2>
+    <form action="https://formspree.io/f/xpwyvzwg" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
 
-  <label for="phone">Phone</label>
-  <input type="tel" id="phone" name="phone">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
 
-  <label for="dob">Date of Birth</label>
-  <input type="date" id="dob" name="dob" required>
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone">
 
-  <label for="address">Street Address</label>
-  <input type="text" id="address" name="address" required>
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob" required>
 
-  <label for="city">City</label>
-  <input type="text" id="city" name="city" required>
+      <label for="address">Street Address</label>
+      <input type="text" id="address" name="address" required>
 
-  <label for="state">State</label>
-  <input type="text" id="state" name="state" maxlength="2" placeholder="MO" required>
+      <label for="city">City</label>
+      <input type="text" id="city" name="city" required>
 
-  <label for="zip">ZIP Code</label>
-  <input type="text" id="zip" name="zip" pattern="[0-9]{5}" placeholder="12345" required>
+      <label for="state">State</label>
+      <input type="text" id="state" name="state" maxlength="2" placeholder="MO" required>
 
-  <label for="insurance">Insurance Type</label>
-  <select id="insurance" name="insurance">
-    <option>Auto</option>
-    <option>Home</option>
-    <option>Life</option>
-    <option>Business</option>
-  </select>
+      <label for="zip">ZIP Code</label>
+      <input type="text" id="zip" name="zip" pattern="[0-9]{5}" placeholder="12345" required>
 
-  <!-- Redirect to thank-you page after submission -->
-  <input type="hidden" name="_redirect" value="https://deansure.com/thank-you.html">
+      <label for="insurance">Insurance Type</label>
+      <select id="insurance" name="insurance">
+        <option>Auto</option>
+        <option>Home</option>
+        <option>Life</option>
+        <option>Business</option>
+      </select>
 
-  <button type="submit">Request a Quote</button>
-</form>
-</section>
+      <!-- Redirect to thank-you page after submission -->
+      <input type="hidden" name="_redirect" value="https://deansure.com/thank-you.html">
+
+      <button type="submit">Request a Quote</button>
+    </form>
+  </section>
 
   <!-- Footer -->
   <footer>
-  <p>© Deansure LLC. All Rights Reserved.</p>
-  <p>
-    <a href="mailto:caleb@deansure.com">caleb@deansure.com</a> | (254) 290-5017
-  </p>
-  <p>
-    <a href="privacy.html">Privacy Policy</a> | 
-    <a href="terms.html">Terms of Service</a>
-  </p>
-</footer>
-<script src="assets/js/script.js"></script>
+    <p>© Deansure LLC. All Rights Reserved.</p>
+    <p>
+      <a href="mailto:caleb@deansure.com">caleb@deansure.com</a> | (254) 290-5017
+    </p>
+    <p>
+      <a href="privacy.html">Privacy Policy</a> |
+      <a href="terms.html">Terms of Service</a>
+    </p>
+  </footer>
+
+  <!-- Sticky floating CTA -->
+  <div id="sticky-cta" class="sticky-cta" aria-label="Get a quote">
+    <a href="#hero-quote" class="sticky-cta-btn">
+      <i class="fas fa-file-signature" aria-hidden="true"></i> Get My Quote
+    </a>
+  </div>
+
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
