@@ -653,3 +653,142 @@ section:nth-of-type(even) {
     grid-template-columns: 1fr;
   }
 }
+/* ========== Hero with short form (above the fold) ========== */
+.hero {
+  background: linear-gradient(180deg, #002244 0%, #0a2e5a 60%, #002244 100%);
+  color: #fff;
+  padding: 64px 24px;
+}
+
+.hero-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.hero-copy h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.hero-copy p {
+  font-size: 1.05rem;
+  opacity: 0.95;
+}
+
+.hero-quick-cta {
+  margin-top: 14px;
+}
+
+.cta-link {
+  color: #ffd166;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cta-link:hover {
+  text-decoration: underline;
+}
+
+/* Compact above-the-fold form */
+.hero-form {
+  background: #ffffff;
+  color: #222;
+  border-radius: 14px;
+  padding: 18px;
+  display: grid;
+  gap: 10px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
+}
+
+.hero-form .form-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0f1a2b;
+  margin-bottom: 4px;
+}
+
+.hero-form input,
+.hero-form select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d6d9e0;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+
+.hero-form input:focus,
+.hero-form select:focus {
+  border-color: #0f6fff;
+  box-shadow: 0 0 0 3px rgba(15, 111, 255, 0.15);
+}
+
+.hero-form .primary-btn {
+  background: #002244; /* brand navy */
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero-form .primary-btn:hover {
+  background: #0a2e5a;
+}
+
+.hero-form .micro-proof {
+  font-size: 12px;
+  color: #666;
+  margin-top: 6px;
+}
+
+/* Responsive stack */
+@media (max-width: 980px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ========== Sticky CTA button ========== */
+.sticky-cta {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 9999;
+}
+
+.sticky-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #002244; /* brand navy */
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-weight: 700;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.28);
+}
+
+.sticky-cta-btn:hover {
+  background: #0a2e5a;
+}
+
+@media (max-width: 768px) {
+  .sticky-cta {
+    right: 12px;
+    bottom: 12px;
+  }
+  .sticky-cta-btn {
+    padding: 12px 14px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+}
