@@ -254,9 +254,10 @@ nav a:hover { text-decoration: underline; }
   font-size: 0.95rem;
 }
 
-/* Blog */
+/* Blog Section */
 .blog {
   padding: 3rem 2rem;
+  background: #f5f9ff; /* soft light blue background for contrast */
   text-align: center;
 }
 .blog h2 {
@@ -273,15 +274,15 @@ nav a:hover { text-decoration: underline; }
 }
 .blog-post {
   background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   overflow: hidden;
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .blog-post:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 .blog-post img {
   width: 100%;
