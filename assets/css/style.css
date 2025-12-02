@@ -293,4 +293,86 @@ nav a:hover { text-decoration: underline; }
   margin: 1rem;
   color: #002244;
 }
-.blog-post
+.blog-post p {
+  margin: 0 1rem 1rem;
+  color: #555;
+  font-size: 0.95rem;
+}
+.read-more {
+  display: inline-block;
+  margin: 0 1rem 1.5rem;
+  color: #0066cc;
+  font-weight: bold;
+  text-decoration: none;
+}
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section */
+.contact {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.contact h2 {
+  margin-bottom: 2rem;
+  color: #002244;
+  font-size: 2rem;
+}
+.contact form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  text-align: left;
+}
+.contact label {
+  font-weight: 600;
+  color: #002244;
+}
+.contact input,
+.contact select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+.contact button {
+  background: #0066cc;
+  color: #fff;
+  padding: 0.9rem 1.6rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.contact button:hover {
+  background: #004c99;
+}
+
+/* Footer */
+footer {
+  background: #002244;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.95rem;
+}
+footer p {
+  margin: 0.5rem 0;
+}
+footer a {
+  color: #ffd166;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+footer a:hover {
+  text-decoration: underline;
+}
