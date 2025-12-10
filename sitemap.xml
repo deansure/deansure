@@ -3,14 +3,14 @@
 
   <url>
     <loc>https://deansure.com/</loc>
-    <lastmod>2025-12-02</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://deansure.com/blog.html</loc>
-    <lastmod>2025-12-02</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2025-12-10</lastmod>
+    <priority>0.9</priority>
   </url>
 
   <url>
@@ -23,6 +23,12 @@
     <loc>https://deansure.com/home-insurance-pacific.html</loc>
     <lastmod>2025-12-02</lastmod>
     <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://deansure.com/landlord-winter-risks.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
